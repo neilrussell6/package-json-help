@@ -1,6 +1,6 @@
 {
   "name": "package-json-help",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "lists the available scripts in package.json",
   "dependencies": {},
   "devDependencies": {
