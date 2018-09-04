@@ -4,14 +4,14 @@ package.json help
 lists the available scripts in ``package.json``.
 
 ```bash
-node index.js
+node package-json-help.js
 ```
 
-or add to your NPM scripts to run ``node index.js``
+or add to your NPM scripts to run ``node package-json-help.js``
 
 ```json
 "scripts": {
-    "help": "node index.js",
+    "help": "node package-json-help.js",
     ...
 }
 ```

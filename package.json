@@ -1,15 +1,14 @@
 {
   "name": "package-json-help",
-  "version": "0.0.1",
-  "description": "",
-  "main": "src/index.js",
+  "version": "0.0.2",
+  "description": "lists the available scripts in ``package.json``",
   "dependencies": {},
   "devDependencies": {
     "mocha": "^5.2.0"
   },
-  "scripts": {
-    "help": "node help.js"
-  },
+  "files": [
+    "bin"
+  ],
   "author": "Neil Russell <neilrussell6@gmail.com>",
   "license": "ISC"
 }
