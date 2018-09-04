@@ -1,10 +1,13 @@
 {
   "name": "package-json-help",
-  "version": "0.0.2",
-  "description": "lists the available scripts in ``package.json``",
+  "version": "0.0.3",
+  "description": "lists the available scripts in package.json",
   "dependencies": {},
   "devDependencies": {
     "mocha": "^5.2.0"
+  },
+  "bin": {
+    "package-json-help": "./bin/package-json-help.js"
   },
   "files": [
     "bin"
