@@ -11,7 +11,7 @@ or add to your NPM scripts to run ``node package-json-help.js``
 
 ```json
 "scripts": {
-    "help": "node package-json-help.js",
+    "help": "package-json-help.js",
     ...
 }
 ```
