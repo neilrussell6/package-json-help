@@ -11,7 +11,7 @@ require('dotenv').config()
 // colors
 const BLACK = 235
 const LIME = 106
-const LIGHT_BLUE = 33
+const LIGHT_BLUE = 74
 const LIGHTER_GREY = 246
 const PRIMARY_COLOR = process.env.PACKAGE_JSON_HELP_PRIMARY_COLOR ? process.env.PACKAGE_JSON_HELP_PRIMARY_COLOR : LIME
 const SECONDARY_COLOR = process.env.PACKAGE_JSON_HELP_SECONDARY_COLOR ? process.env.PACKAGE_JSON_HELP_SECONDARY_COLOR : LIGHT_BLUE
