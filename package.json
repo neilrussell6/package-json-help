@@ -1,6 +1,6 @@
 {
   "name": "package-json-help",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "lists the available scripts in package.json",
   "dependencies": {
     "dotenv": "^6.0.0"
