@@ -1,19 +1,35 @@
 {
   "name": "package-json-help",
   "version": "0.0.10",
-  "description": "lists the available scripts in package.json",
-  "dependencies": {
-    "dotenv": "^6.0.0"
+  "description": "Lists the available scripts in package.json, hiding any prefixed with an underscore",
+  "keywords": [
+    "package.json",
+    "npm scripts",
+    "nodejs",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Neil Russell <neilrussell6@gmail.com>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neilrussell6/package-json-help.git"
   },
-  "devDependencies": {
-    "mocha": "^7.1.1"
+  "bugs": {
+    "url": "https://github.com/neilrussell6/package-json-help/issues"
   },
+  "homepage": "https://github.com/neilrussell6/package-json-help#readme",
   "bin": {
     "package-json-help.js": "./bin/package-json-help.js"
   },
   "files": [
     "bin"
   ],
-  "author": "Neil Russell <neilrussell6@gmail.com>",
-  "license": "ISC"
+  "dependencies": {
+    "dotenv": "^6.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^7.1.1"
+  }
 }
