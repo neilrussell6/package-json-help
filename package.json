@@ -1,6 +1,6 @@
 {
   "name": "package-json-help",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Lists the available scripts in package.json, hiding any prefixed with an underscore",
   "keywords": [
     "package.json",
