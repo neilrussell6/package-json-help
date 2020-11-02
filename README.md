@@ -6,7 +6,7 @@ package.json help
 ### Installation
 
 ```bash
-npm i -D js-parametrize
+npm i -D package-json-help
 ```
 
 ### Usage
