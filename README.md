@@ -28,7 +28,7 @@ and values being the description for that script.
 eg. given the above scripts, and the following ``help.json``:
 ```json
 {
-  "cmd1": "just says goodbye, in caps"
+  "cmd2": "just says goodbye, in caps"
 }
 ```
 
@@ -40,5 +40,5 @@ npm run help
 will output something like:
 ```
 available commands ...
-cmd1    just says goodbye, in caps
+cmd2    just says goodbye, in caps
 ```
